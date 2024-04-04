@@ -1,0 +1,871 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "content": "What will be output of \nlet a=\"1\";\nlet b= 1;\nconsole.log(a===b);",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "1",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "true",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "content": "false",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "content": "error",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "content": "what will be output of below code ?\n(function() {\n\tvar a = Object.create({\n\t\tfoo: 'foo'\n\t});\n\tvar b= Object.create(a);\n\tconsole.log(a== b);\n\tconsole.log(a=== b);\n}());",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "true false",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "false false",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "false false",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "true true",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "content": "What will be output of below code?\nlet c = 30;\nif (c === 30) {\n  let c = 31;\n}\nconsole.log(c); ",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "31",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "30",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "undefined",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "error",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "content": "What will be output of console.log(!!0)",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "0",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "false",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "true",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "1",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "content": "What will be output of \nconsole.log(0+5+\"a\"+4)",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "9a",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "05a4",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "5a4",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "error",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "quizs": [
+    {
+      "id": "1",
+      "name": "Javascript quiz 1",
+      "code": "jsquiz01",
+      "questions": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Javascript quiz 2",
+      "code": "jsquiz02",
+      "questions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "75b2",
+      "name": "Ved",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "7a6d",
+      "name": "Ved",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "4197",
+      "name": "Ved",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "d969",
+      "name": "Ved",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "5a0d",
+      "name": "Ved",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "761b",
+      "name": "Ved",
+      "quizId": "1",
+      "response": []
+    }
+  ],
+  "quizResults": [
+    {
+      "name": "Ved new",
+      "quizId": 1,
+      "id": "1"
+    },
+    {
+      "name": "Ved new2",
+      "quizId": 1,
+      "id": "2",
+      "correct": 0,
+      "inCorrect": 0,
+      "unAttempt": 0,
+      "score": 0,
+      "percentage": null
+    },
+    {
+      "name": "Ved new2",
+      "quizId": 1,
+      "id": "3",
+      "correct": 0,
+      "inCorrect": 0,
+      "unAttempt": 0,
+      "score": 0,
+      "percentage": null
+    },
+    {
+      "name": "Ved new2",
+      "quizId": 1,
+      "response": [
+        {
+          "questionId": 1,
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": 2,
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": 3,
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": 5,
+          "answerOptionId": ""
+        }
+      ],
+      "id": "4",
+      "correct": 1,
+      "inCorrect": 2,
+      "unAttempt": 1,
+      "score": -1,
+      "percentage": -25
+    },
+    {
+      "name": "Ved new5",
+      "quizId": 1,
+      "response": [
+        {
+          "questionId": 1,
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": 2,
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": 3,
+          "answerOptionId": ""
+        },
+        {
+          "questionId": 5,
+          "answerOptionId": "c"
+        }
+      ],
+      "id": "5",
+      "correct": 0,
+      "inCorrect": 3,
+      "unAttempt": 1,
+      "score": -3,
+      "percentage": -75
+    },
+    {
+      "name": "Ved final",
+      "quizId": 1,
+      "response": [
+        {
+          "questionId": 1,
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": 2,
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": 3,
+          "answerOptionId": ""
+        },
+        {
+          "questionId": 5,
+          "answerOptionId": "b"
+        }
+      ],
+      "id": "6",
+      "correct": 1,
+      "inCorrect": 2,
+      "unAttempt": 1,
+      "score": -1,
+      "percentage": -25
+    },
+    {
+      "id": "3231",
+      "name": "Ved",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "7add",
+      "name": "Ved",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "230e",
+      "name": "Ved",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "e615",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "f019",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "56bc",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "bd9d",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "3ce8",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "7c4d",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "263d",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "3057",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "c01c",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "292c",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "2ec5",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "deae",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "9b52",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "6912",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": ""
+        }
+      ]
+    },
+    {
+      "id": "add0",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "b"
+        }
+      ],
+      "correct": 2,
+      "inCorrect": 2,
+      "unAttempt": 0,
+      "score": 0,
+      "percentage": 0
+    },
+    {
+      "id": "92c9",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "a"
+        }
+      ],
+      "correct": 2,
+      "inCorrect": 2,
+      "unAttempt": 0,
+      "score": 0,
+      "percentage": 0
+    },
+    {
+      "id": "9469",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "d"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "a"
+        }
+      ],
+      "correct": 0,
+      "inCorrect": 4,
+      "unAttempt": 0,
+      "score": -4,
+      "percentage": -100
+    },
+    {
+      "id": "2574",
+      "name": "Vedd",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "b"
+        }
+      ],
+      "correct": 1,
+      "inCorrect": 3,
+      "unAttempt": 0,
+      "score": -2,
+      "percentage": -50
+    },
+    {
+      "id": "a666",
+      "name": "robi",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "d"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "a"
+        }
+      ],
+      "correct": 0,
+      "inCorrect": 4,
+      "unAttempt": 0,
+      "score": -4,
+      "percentage": -100
+    },
+    {
+      "id": "fdfd",
+      "name": "robi",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "d"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "b"
+        }
+      ],
+      "correct": 2,
+      "inCorrect": 2,
+      "unAttempt": 0,
+      "score": 0,
+      "percentage": 0
+    },
+    {
+      "id": "70c2",
+      "name": "robi",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "a"
+        }
+      ],
+      "correct": 0,
+      "inCorrect": 4,
+      "unAttempt": 0,
+      "score": -4,
+      "percentage": -100
+    },
+    {
+      "id": "9e1e",
+      "name": "robi",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "d"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "b"
+        }
+      ],
+      "correct": 2,
+      "inCorrect": 2,
+      "unAttempt": 0,
+      "score": 0,
+      "percentage": 0
+    },
+    {
+      "id": "3f77",
+      "name": "robi",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "c"
+        }
+      ],
+      "correct": 1,
+      "inCorrect": 3,
+      "unAttempt": 0,
+      "score": -2,
+      "percentage": -50
+    },
+    {
+      "id": "a5bd",
+      "name": "robi",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "c"
+        }
+      ],
+      "correct": 1,
+      "inCorrect": 3,
+      "unAttempt": 0,
+      "score": -2,
+      "percentage": -50
+    },
+    {
+      "id": "fc7f",
+      "name": "robi",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "c"
+        }
+      ],
+      "correct": 0,
+      "inCorrect": 3,
+      "unAttempt": 1,
+      "score": -3,
+      "percentage": -75
+    },
+    {
+      "id": "305a",
+      "name": "robif",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "d"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "d"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "c"
+        }
+      ],
+      "correct": 0,
+      "inCorrect": 4,
+      "unAttempt": 0,
+      "score": -4,
+      "percentage": -100
+    },
+    {
+      "id": "5b36",
+      "name": "robif",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": ""
+        }
+      ],
+      "correct": 0,
+      "inCorrect": 2,
+      "unAttempt": 2,
+      "score": -2,
+      "percentage": -50
+    },
+    {
+      "id": "6a5a",
+      "name": "robif",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": ""
+        }
+      ],
+      "score": 1,
+      "percentage": 33,
+      "correct": 1,
+      "inCorrect": 0,
+      "unAttempt": 2
+    },
+    {
+      "id": "db93",
+      "name": "robifd",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "b"
+        }
+      ],
+      "score": -1,
+      "percentage": -33,
+      "correct": 1,
+      "inCorrect": 2,
+      "unAttempt": 0
+    },
+    {
+      "id": "eb0d",
+      "name": "eee",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "d"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": ""
+        }
+      ],
+      "score": -2,
+      "percentage": -67,
+      "correct": 0,
+      "inCorrect": 2,
+      "unAttempt": 1
+    }
+  ]
+}
